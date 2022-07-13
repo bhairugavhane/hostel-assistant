@@ -1,0 +1,371 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.bgimage{
+	background-image: url('tt.jpg');
+	background-size: 100% 110%;
+	width: 100%;
+	height: 100vh;
+}
+
+.menu{
+
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0, 0, 0, 1);
+}
+
+.leftmenu{
+	width: 20%;
+	line-height: 100px;
+	float: left;
+
+/*	background-color: yellow;*/
+}
+
+.leftmenu h4{
+	padding-left: 70px;
+	font-weight: bolder;
+	color: white;
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.rightmenu{
+	width:70%;
+	height: 100px;
+	float: right;
+/*	background-color: red; */
+}
+
+.rightmenu ul{
+	margin-left: 200px;
+}
+
+.rightmenu ul li {
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	list-style: none;
+	font-size: 20px;
+	color:white;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 40px;
+	text-transform: uppercase;
+
+}
+
+#fisrtlist{
+	color: orange;
+}
+
+.rightmenu ul li:hover{
+	color: orange;
+}
+
+
+.text{
+	width: 100%;
+	margin-top: 185px;
+	text-transform: uppercase;
+	text-align: center;
+	color:white;
+}
+
+.text h4{
+
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.text h1{
+	font-size:62px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700px;
+	margin:14px 0px;
+}
+
+.text h3{
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+#buttonone{
+	background-color: white;
+	border: none;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 40px;
+	width: 150px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 25px;
+	border: 3px solid white;
+}
+
+#buttontwo{
+
+	background-color: transparent;
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 40px;
+	border: 3px solid white;
+	width: 150px;
+}
+
+a:link {
+	color: rgb(233, 9, 218);
+	background-color: transparent;
+	text-decoration: none;
+  }
+  
+  a:visited {
+	color: pink;
+	background-color: transparent;
+	text-decoration: none;
+  }
+  
+  a:hover {
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
+  }
+  
+  a:active {
+	color: yellow;
+	background-color: transparent;
+	text-decoration: underline;
+  }
+/* =================================================================================================== */
+body {
+	background: beige;
+	color: black;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  .container {
+	display: flex;
+	width: 80%;
+	border: 10px solid white;
+	border-radius: 20px;
+	margin-left: 230px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	color: #f2f2f2;
+  }
+  
+  .colum {
+	flex-direction: column;
+	/* margin-right: 100px; */
+	flex: 1;
+  }
+  
+  .colum div {
+	background-color: rgb(0, 0, 0);
+	font-size: 1.4rem;
+	padding: 5px 0;
+	border: 2px solid green;
+	border-radius: 10px;
+  }
+  
+	.card {
+	margin-left: 10px
+  } 
+  
+  .image {
+	background:white;
+	flex: 1;
+  }
+  
+  .image img {
+	display: block;
+	padding: 5px;
+	width: fit-content;
+	/* width: 100%; */
+	height: 100%;
+  }
+
+  .h_title{
+	font-family: Arial, Helvetica, sans-serif;
+	color: red;
+	border: 2px red;
+	font-weight: bolder;
+	font-size: xx-large;
+	background-color: #2196F3;
+	text-align: center;
+  }
+  button{
+	/* background-color: ; Green */
+	border:5px white;
+	border-radius: 20px;
+	color: white;
+	/* padding: 15px 32px; */
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+  }
+
+/* -================================Slide Show style starts here-==================================== */
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;margin:0}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+  /* =================================Slide show style ends here================================================== */
+
+
+  /* Style the buttons */
+.btn {
+	border: none;
+	outline: none;
+	padding: 12px 16px;
+	background-color: #50c6e7;
+	cursor: pointer;
+	font-size: large;
+	font-weight: 700;
+	margin-top: 50px;
+	margin-left: 10px;
+  }
+  
+  /* Add a light grey background on mouse-over */
+  .btn:hover {
+	background-color: #ddd;
+  }
+  
+  /* Add a dark background to the active button */
+  .btn.active {
+	background-color: #666;
+	color: white;
+  }
+
+  .container {
+	overflow: hidden;
+  }
+  
+  .filterDiv {
+	float: left;
+	background-color: #2196F3;
+	color: #ffffff;
+	width: 100px;
+	line-height: 100px;
+	text-align: center;
+	margin: 2px;
+	display: none; /* Hidden by default */
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+	display: block;
+  }
+
+.bgimage .text1{
+	font-size:25px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500px;
+	margin:14px 0px;
+	text-align: center;
+	margin-top:650px;
+	font-family: cursive;
+}
+
+.about{
+	text-align: center;
+	margin-top: 250px;
+}
